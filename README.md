@@ -14,4 +14,4 @@ If you need to force an update:
 
 Available at:
 
-`https://developer.ogc.org/sprints/24/`
+`https://developer.ogc.org/sprints/25/`

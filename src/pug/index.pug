@@ -68,9 +68,6 @@ html(lang='en')
                 a.btn.btn-primary.btn-xl.text-uppercase(href='#about') Tell Me More
                 a.btn.btn-primary.btn-xl.text-uppercase(href=`${registration_link}`) Register
 
-
-
-
         // About
         section#about.page-section
             .container
@@ -97,35 +94,24 @@ html(lang='en')
                             .col
                                 a(href='https://www.ogc.org/')
                                     img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/ogc.svg', alt='...')
-                            .col
-                                a(href='https://geovation.uk/')
-                                    img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/geovation-logo.png', alt='...')
+                            //- .col
+                            //-     a(href='https://geovation.uk/')
+                            //-         img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/geovation-logo.png', alt='...')
 
-        section#supporters.page-section.bg-light
-            .container-fluid
-                .text-center
-                    h2.section-heading.text-uppercase Strategic Member support
-                    div.py-5
-                        .container
-                            .row.text-center
-                                .col
-                                    a(href='https://natural-resources.canada.ca')
-                                        img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/geoconnections.png', alt='nrcan')
-
-        section#sponsors.page-section
+        section#sponsors.page-section.bg-light
             .container-fluid
                 .text-center
                     h2.section-heading.text-uppercase Sponsors
                     p.text-muted
                         | If you are interested in sponsoring the Code Sprint, please check our 
                         a(href='https://developer.ogc.org/sprints/sponsoring/') sponsoring packages.
-                    div.py-5
-                        .container
-                            .row.text-center
-                                .col
-                                    a(href='https://opensource.google/')
-                                        img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/logo_Google_FullColor_hdpi_830x271px.png', alt='google')
-                                    | Silver-level sponsor
+                    //- div.py-5
+                    //-     .container
+                    //-         .row.text-center
+                    //-             .col
+                    //-                 a(href='https://opensource.google/')
+                    //-                     img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/logo_Google_FullColor_hdpi_830x271px.png', alt='google')
+                    //-                 | Silver-level sponsor
                     //-                 p.
                     //-         .row.justify-content-center
                     //-             .col-2
@@ -178,7 +164,7 @@ html(lang='en')
                             p We acknowledge that not everyone may be familiar or feel comfortable to contribute to the Standards yet, so we have curated a parallel track for newcomers.
                             p On the 
                                 a(href=`${mentorstream_link}`) mentor stream
-                                | , participants will have the opportunity to learn more about the Standards, and give their first steps in using them. The stream will include community led tutorials which will take place on 
+                                |, participants will have the opportunity to learn more about the Standards, and give their first steps in using them. The stream will include community led tutorials which will take place on 
                                 i.fab.fa-discord
                                 | discord, at the 
                                 a(href="https://discord.gg/sCd59VufXS") #Mentor Room
@@ -194,9 +180,6 @@ html(lang='en')
                         .carousel-indicators
                             button.active(type='button' data-bs-target='#carouselExampleControls' data-bs-slide-to='0' aria-current='true' aria-label='Slide 1')
                             button(type='button' data-bs-target='#carouselExampleControls' data-bs-slide-to='1' aria-label='Slide 2')
-                            button(type='button' data-bs-target='#carouselExampleControls' data-bs-slide-to='2' aria-label='Slide 3')
-                            button(type='button' data-bs-target='#carouselExampleControls' data-bs-slide-to='3' aria-label='Slide 4')
-                            button(type='button' data-bs-target='#carouselExampleControls' data-bs-slide-to='4' aria-label='Slide 5')
 
                         .carousel-inner
                             .carousel-item.active

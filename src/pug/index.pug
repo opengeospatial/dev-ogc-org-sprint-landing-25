@@ -219,23 +219,23 @@ html(lang='en')
                                                 | What is a code sprint?
                                         #collapse-one.accordion-collapse.collapse(aria-labelledby='one' data-bs-parent='#accordion')
                                             .accordion-body
-                                                p A Code Sprint is a three day virtual or hybrid event, where dozens of developers from around the world come together to code and share their ideas regarding sharing geospatial information. This code sprint will be hybrid.
+                                                p A Code Sprint is a three day virtual or hybrid event, where dozens of developers from around the world come together to code and share their ideas regarding sharing geospatial information. This code sprint will be virtual.
                                     .accordion-item
                                         h2#two.accordion-header
                                             button.accordion-button.collapsed(type='button' data-bs-toggle='collapse' data-bs-target='#collapse-two' aria-expanded='false' aria-controls='collapse-two')
                                                 | When is the code sprint?
                                         #collapse-two.accordion-collapse.collapse(aria-labelledby='two' data-bs-parent='#accordion')
                                             .accordion-body
-                                                p The code sprint will be a 3 day event on #{date}. The welcome webinar will be held on June 13.
+                                                p The code sprint will be a 3 day event on #{date}. The welcome webinar will be held on March 20.
                                     .accordion-item
                                         h2#three.accordion-header
                                             button.accordion-button.collapsed(type='button' data-bs-toggle='collapse' data-bs-target='#collapse-three' aria-expanded='false' aria-controls='collapse-three')
                                                 | Where is the code sprint?
                                         #collapse-three.accordion-collapse.collapse(aria-labelledby='three' data-bs-parent='#accordion')
                                             .accordion-body
-                                                p This code sprint will take place at 
-                                                    a(href=`${location_link}`) #{location}
-                                                    | and at the OGC events discord server.
+                                                p This code sprint will take place at the
+                                                    a(href="https://discord.gg/3uyaZZuXr3") OGC Events discord server
+                                                    | .
                                     .accordion-item
                                         h2#four.accordion-header
                                             button.accordion-button.collapsed(type='button' data-bs-toggle='collapse' data-bs-target='#collapse-four' aria-expanded='false' aria-controls='collapse-four')
@@ -305,30 +305,20 @@ html(lang='en')
                                         .accordion-item
                                             h2#nine.accordion-header
                                                 button.accordion-button.collapsed(type='button' data-bs-toggle='collapse' data-bs-target='#collapse-nine' aria-expanded='false' aria-controls='collapse-nine')
-                                                    | How does an hybrid code sprint work?
+                                                    | How does a virtual code sprint work?
                                             #collapse-nine.accordion-collapse.collapse(aria-labelledby='nine' data-bs-parent='#accordion2')
                                                 .accordion-body
-                                                    p An hybrid code sprint takes place on a physical location. In this case, it will be in
-                                                        a(href=`${location_link}`) #{location}.
-                                                    p In addition, participants will be able to join online. This means that anyone in the world can join, provided they can follow the local timetable. 
-                                                        | The online part of the code sprint runs on the 
-                                                        i.fab.fa-discord  
-                                                        | discord plattform, which provides both text and video/audio channels.
+                                                    p In a virtual code sprint participants will join online. This means that anyone in the world can join, provided they can adjust to the timezone of the sprint. 
+                                                        | The sprint runs on the 
+                                                        i.fab.fa-discord
+                                                        a(href="https://discord.gg/3uyaZZuXr3") discord platform  
+                                                        | , which provides both text and video/audio channels.
                                                     p During the code sprint, we will meet at given times, according to the 
                                                         a(href=`${schedule_link}`) schedule 
                                                         | and stream those meetings through discord.
                                                     p You can read more about the logistics and other details of the code sprint, on the
                                                         a(href=`${wiki_link}`) wiki page
                                                         | .
-                                        .accordion-item
-                                            h2#tenth.accordion-header
-                                                button.accordion-button.collapsed(type='button' data-bs-toggle='collapse' data-bs-target='#collapse-tenth' aria-expanded='false' aria-controls='collapse-nine-1')
-                                                    | Do you have any advice regarding accomodation during the code sprint?
-                                            #collapse-tenth.accordion-collapse.collapse(aria-labelledby='tenth' data-bs-parent='#accordion2')
-                                                .accordion-body
-                                                    p You can find
-                                                        a(href='https://github.com/opengeospatial/developer-events/wiki/July-2024-Open-Standards-Code-Sprint#period-and-location') here 
-                                                        | a list of nearby hotels. 
                                         .accordion-item
                                             h2#twelve.accordion-header
                                                 button.accordion-button.collapsed(type='button' data-bs-toggle='collapse' data-bs-target='#collapse-twelve' aria-expanded='false' aria-controls='collapse-nine-1')
@@ -374,15 +364,7 @@ html(lang='en')
                                                 .accordion-body
                                                     p Registration is open 
                                                         a(href=`${registration_link}`) here 
-                                                        | . In-person registration closes on #{deadline}. Registration for remote participation will remain open throughout the code sprint.
-                                        .accordion-item
-                                            h2#eleven-1.accordion-header
-                                                button.accordion-button.collapsed(type='button' data-bs-toggle='collapse' data-bs-target='#collapse-eleven-1' aria-expanded='false' aria-controls='collapse-eleven')
-                                                    | Can I apply for funding?
-                                            #collapse-eleven-1.accordion-collapse.collapse(aria-labelledby='eleven-1' data-bs-parent='#accordion3')
-                                                .accordion-body
-                                                    p Travel Support Funding is available for some participants. 
-                                                    | Participants looking to receive funding will have to submit their registration forms by June 30, 2024 and will be notified within 2 weeks of their application whether their application for travel support is approved or not.
+                                                        | . Registration will remain open throughout the code sprint.
         // Contact
         section#contact.page-section
              .container

@@ -27,6 +27,10 @@ html(lang='en')
 
     body#page-top
 
+        #announcement-bar
+            .text-center
+                .text-muted This sprint is piloting a distributed model. Find more about local sprint nodes
+                    a(href='https://developer.ogc.org/sprints/nodes/') here.                
         // Navigation
         nav#mainNav.navbar.navbar-expand-lg.navbar-dark.fixed-top
             .container
@@ -86,6 +90,8 @@ html(lang='en')
                     .row.text-left
                             p.text-muted You can find more details about the code sprint on the event's
                                 a(href=`${wiki_link}`) wiki page
+                                |. You can find more information about sprint nodes and find a local node to join on the 
+                                a(href=`${nodes_link}`) nodes website
                                 |. Want to learn more about OGC Standards? Checkout the
                                 a(href="https://developer.ogc.org/") developer website
                                 |.  
@@ -219,7 +225,8 @@ html(lang='en')
                                                 | What is a code sprint?
                                         #collapse-one.accordion-collapse.collapse(aria-labelledby='one' data-bs-parent='#accordion')
                                             .accordion-body
-                                                p A Code Sprint is a three day virtual or hybrid event, where dozens of developers from around the world come together to code and share their ideas regarding sharing geospatial information. This code sprint will be virtual.
+                                                p A Code Sprint is a three day virtual or hybrid event, where dozens of developers from around the world come together to code and share their ideas regarding sharing geospatial information. Although this code sprint will be virtual, it will support local,
+                                                    a(href=`${nodes_link}`) in-person, nodes.
                                     .accordion-item
                                         h2#two.accordion-header
                                             button.accordion-button.collapsed(type='button' data-bs-toggle='collapse' data-bs-target='#collapse-two' aria-expanded='false' aria-controls='collapse-two')
@@ -235,7 +242,8 @@ html(lang='en')
                                             .accordion-body
                                                 p This code sprint will take place at the
                                                     a(href="https://discord.gg/3uyaZZuXr3") OGC Events discord server
-                                                    | .
+                                                    | . You can also join, in-person, one of the 
+                                                    a(href=`${nodes_link}`) code sprint nodes.
                                     .accordion-item
                                         h2#four.accordion-header
                                             button.accordion-button.collapsed(type='button' data-bs-toggle='collapse' data-bs-target='#collapse-four' aria-expanded='false' aria-controls='collapse-four')
